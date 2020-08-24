@@ -1,7 +1,7 @@
 class CAritmetica
 {
    /*
-    * Operaciones Aritm´éticas
+    * Operaciones Aritmï¿½ï¿½ticas
     */
     public static void main (String[] args)
     {
