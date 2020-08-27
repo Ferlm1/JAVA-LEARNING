@@ -8,17 +8,10 @@ class CRacional {
         Denominador = Den;
     }
 
-    public void Sumar(CRacional racional2){
-        int num1, num2, deno, nume;
-        deno = obtenerDenominador() * racional2.obtenerDenominador();
-        num1 = (deno/obtenerDenominador()) * obtenerNumerador();
-        num2 = (deno/racional2.obtenerDenominador()) * racional2.obtenerNumerador();
-        nume = num1 + num2;
-        System.out.println("La suma de " + obtenerNumerador() + "/" + obtenerDenominador() +
-        " + " + racional2.obtenerNumerador() + "/" + racional2.obtenerDenominador());
-        System.out.println(" es " + nume + "/" + deno);
-        Numerador = nume;
-        Denominador = deno;
+    public static CRacional Sumar(CRacional a, CRacional b){
+        int num = a.Numerador * b.Denominador + a.Denominador * b.Denominador;
+        int deno = a.Denominador * b.Denominador;
+        return new CRacional(num, deno); 
     }
 
     public void Restar(CRacional racional){
