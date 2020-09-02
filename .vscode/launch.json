@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CAritmetica<JAVA-LEARNING_315dd128>",
+            "request": "launch",
+            "mainClass": "CAritmetica",
+            "projectName": "JAVA-LEARNING_315dd128"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Ejercicio1<JAVA-LEARNING_315dd128>",
+            "request": "launch",
+            "mainClass": "Ejercicio1",
+            "projectName": "JAVA-LEARNING_315dd128"
+        }
+    ]
+}
