@@ -1,2 +1,2 @@
 # JAVA-LEARNING
-Code from Ceballos's Java book
+Code by me from the Ceballos's Java book. All examples and exercises.
